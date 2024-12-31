@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Container Base -->
+    <rect x="8" y="24" width="48" height="32" rx="4" fill="#F3F4F6" stroke="#4F46E5" stroke-width="2"/>
+    
+    <!-- Container Ridges -->
+    <line x1="16" y1="28" x2="16" y2="52" stroke="#818CF8" stroke-width="2"/>
+    <line x1="24" y1="28" x2="24" y2="52" stroke="#818CF8" stroke-width="2"/>
+    <line x1="32" y1="28" x2="32" y2="52" stroke="#818CF8" stroke-width="2"/>
+    <line x1="40" y1="28" x2="40" y2="52" stroke="#818CF8" stroke-width="2"/>
+    <line x1="48" y1="28" x2="48" y2="52" stroke="#818CF8" stroke-width="2"/>
+    
+    <!-- Ship -->
+    <path d="M32 4L44 20H20L32 4Z" fill="#4F46E5"/>
+    <rect x="28" y="20" width="8" height="4" fill="#4F46E5"/>
+    
+    <!-- Waves -->
+    <path d="M4 44C8 40 12 40 16 44C20 48 24 48 28 44" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 44C40 40 44 40 48 44C52 48 56 48 60 44" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
+</svg> 

@@ -1,0 +1,430 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+  <url>
+    <loc>https://relevanceai.com/docs/agent/agent-configuration</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/agent/api/conversation</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/agent/api/list-conversations</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/agent/bosh-bdr-agent</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/agent/faq</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/agent/introduction</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/agent/templates</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/data/data-table</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/data/faq</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/data/introduction</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/datasets/introduction</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/datasets/reference</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/example-use-cases/few-shot-prompting</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/example-use-cases/knowledge-retrieval</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/example-use-cases/prospecting</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/introduction</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/key-concepts/agent</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/key-concepts/api-keys</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/key-concepts/data</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/key-concepts/templates</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/key-concepts/tools</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/plans</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/quickstart/agent</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/quickstart/integrations</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/quickstart/knowledge</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/quickstart/templates</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/get-started/system-limits</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/integrations/email-warmups</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/integrations/hubspot</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/integrations/outlook</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/integrations/salesforce</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/integrations/vector-databases/redis</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/integrations/zoom</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/dashboard/notebook</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/guides/charting-agent</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/guides/pdf-qa</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/quickstart</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/reference/creating-chain</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/reference/deploying-chain</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/reference/params</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/reference/setup</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/sdk/reference/transformation-steps</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/security</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/analyze-responses-in-focus-groups</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/anonymize-text</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/audio-to-utterance-data-table</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/audio-to-utterance-mark-sections</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/audio-transcription-high-level-summary</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/category-suggester-for-transcript</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/category-tag-suggester</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/extract-data-from-pdf</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/focused-summarization-quote</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/gpt-on-my-files</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/gpt-on-my-website</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/sentiment-analysis</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/summarize-meeting-transcript</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/templates/text-categorizer-classifier</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/advanced-setup/conditions</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/advanced-setup/loops</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/advanced-setup/output-configuration</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/advanced-setup/string-conversion</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/api/long-running-tools</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/bulk-run</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/create-a-tool</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/errors</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/export</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/faq</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/introduction</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/knowledge/knowledge</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/provider-setup/azure-openai</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/single-run</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/templates</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/code-javascript</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/combine-string-array</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/convert-audio-video-to-text</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/convert-pdf-to-text</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/convert-spreadsheet-to-json</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/convert-string-to-json</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/extract-website-content</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/getting-started</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/insert-in-ds</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/json-filtered</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/knowledge-search</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/llms/how-to-handle-too-much-text</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/llms/llm</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/llms/llm-advance-setting</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/llms/llm-output</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/llms/prompt</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/llms/validators</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/python-code/code-python</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/python-code/code-python-helper-functions</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/python-code/code-studio-transformation-python-helper-functions</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/split-text</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/tool-steps/vectorize-and-search</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/check-box</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/file-to-text</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/file-to-url</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/getting-started</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/json</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/list-of-jsons</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/long-text-input</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/numeric-input</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/options-drop-down</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/table</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/text-input</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/user-inputs/text-list</loc>
+  </url>
+
+  <url>
+    <loc>https://relevanceai.com/docs/tool/what-are-chains</loc>
+  </url>
+</urlset>

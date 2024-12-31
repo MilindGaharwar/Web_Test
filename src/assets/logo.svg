@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 8h20v24H10z" stroke="#4F46E5" stroke-width="2"/>
+    <path d="M15 20h10M15 15h10M15 25h10" stroke="#4F46E5" stroke-width="2"/>
+    <text x="40" y="27" font-family="Inter" font-weight="700" font-size="24" fill="#4F46E5">LogiAI</text>
+</svg> 
