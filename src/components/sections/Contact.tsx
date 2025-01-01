@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
-import { useState, FormEvent } from "react";
+import { useState, FormEvent, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
+  const form = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,17 +18,14 @@ export const Contact = () => {
     setStatus("sending");
 
     try {
-      const response = await fetch("http://localhost:3001/api/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      if (!form.current) return;
 
-      if (!response.ok) {
-        throw new Error("Failed to send email");
-      }
+      await emailjs.sendForm(
+        "service_9nczg7l", // EmailJS service ID
+        "template_4wl7hk8", // EmailJS template ID
+        form.current,
+        "ZOG1o2dprM9J_Xv6U" // EmailJS public key
+      );
 
       setStatus("success");
       setFormData({ name: "", email: "", message: "" });
@@ -81,7 +80,7 @@ export const Contact = () => {
               className="bg-white p-8 rounded-2xl shadow-lg"
             >
               <h2 className="text-3xl font-bold mb-8">Send us a message</h2>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form ref={form} onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label
                     htmlFor="name"
@@ -92,6 +91,7 @@ export const Contact = () => {
                   <input
                     type="text"
                     id="name"
+                    name="user_name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -109,6 +109,7 @@ export const Contact = () => {
                   <input
                     type="email"
                     id="email"
+                    name="user_email"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -125,6 +126,7 @@ export const Contact = () => {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     value={formData.message}
                     onChange={handleChange}
                     required

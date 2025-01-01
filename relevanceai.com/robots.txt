@@ -1,5 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://relevanceai.com/sitemap.xml
-Sitemap: https://relevanceai.com/docs/sitemap.xml
-    
