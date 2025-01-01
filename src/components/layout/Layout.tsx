@@ -13,7 +13,9 @@ export const Layout = ({ children }: LayoutProps) => {
           <div className="flex justify-between h-16">
             <div className="flex">
               <Link to="/" className="flex items-center">
-                <span className="text-2xl font-bold text-primary">LogiAI</span>
+                <span className="text-3xl font-extrabold text-primary">
+                  LogiAI
+                </span>
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">

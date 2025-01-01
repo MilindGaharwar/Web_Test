@@ -68,11 +68,11 @@ export const Solutions = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Intelligent Document Processing
+                Document Processing
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Automate the processing of logistics documents with AI that
-                understands context and learns from your workflows.
+                Simplify logistics document management with AI agents that
+                understand context and learn from your workflows.
               </p>
               <ul className="space-y-6">
                 <li className="flex gap-4">
@@ -86,8 +86,8 @@ export const Solutions = () => {
                       Smart Document Recognition
                     </h4>
                     <p className="text-gray-600">
-                      Automatically identify and classify different types of
-                      shipping documents
+                      Automatically identify and classify various shipping
+                      documents, from bills of lading to commercial invoices.
                     </p>
                   </div>
                 </li>
@@ -102,8 +102,8 @@ export const Solutions = () => {
                       Data Extraction
                     </h4>
                     <p className="text-gray-600">
-                      Extract key information from forms and documents with high
-                      accuracy
+                      Accurately extract key information from forms and
+                      documents with speed and precision.
                     </p>
                   </div>
                 </li>
@@ -118,8 +118,8 @@ export const Solutions = () => {
                       Validation & Compliance
                     </h4>
                     <p className="text-gray-600">
-                      Ensure data accuracy and compliance with regulatory
-                      requirements
+                      Ensure data accuracy while adhering to regulatory
+                      requirements, reducing compliance risks effortlessly.
                     </p>
                   </div>
                 </li>
@@ -170,8 +170,9 @@ export const Solutions = () => {
                 Workflow Automation
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Streamline your operations with intelligent automation that
-                adapts to your business processes.
+                Streamline logistics operations with virtual employees that
+                autonomously execute and refine workflows for maximum efficiency
+                and scalability.
               </p>
               <ul className="space-y-6">
                 <li className="flex gap-4">
@@ -185,8 +186,8 @@ export const Solutions = () => {
                       Custom Workflows
                     </h4>
                     <p className="text-gray-600">
-                      Design and implement automated workflows tailored to your
-                      needs
+                      Create, adapt, and implement workflows tailored to meet
+                      your specific business needs.
                     </p>
                   </div>
                 </li>
@@ -201,7 +202,8 @@ export const Solutions = () => {
                       Integration Hub
                     </h4>
                     <p className="text-gray-600">
-                      Connect with your existing systems including CargoWise One
+                      Effortlessly connect AI agents to your tech stack,
+                      including native integration with essential systems.
                     </p>
                   </div>
                 </li>
@@ -216,8 +218,8 @@ export const Solutions = () => {
                       Process Analytics
                     </h4>
                     <p className="text-gray-600">
-                      Track and optimize your automated workflows with detailed
-                      insights
+                      Monitor and analyze workflows with actionable insights
+                      that drive continuous performance improvement.
                     </p>
                   </div>
                 </li>
@@ -227,7 +229,7 @@ export const Solutions = () => {
         </div>
       </section>
 
-      {/* AI Employees Section */}
+      {/* Automate Logistics Tasks Section */}
       <section id="ai-employees" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -238,61 +240,108 @@ export const Solutions = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                AI Employees
+                Automate Logistics Tasks
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Deploy autonomous AI agents that work alongside your team to
-                handle routine tasks 24/7.
+                Deploy AI agents across different departments to manage routine
+                and complex tasks, enabling your team to focus on strategic
+                growth initiatives.
               </p>
-              <ul className="space-y-6">
-                <li className="flex gap-4">
-                  <img
-                    src={aiIcon}
-                    alt=""
-                    className="w-12 h-12 flex-shrink-0"
-                  />
-                  <div>
-                    <h4 className="text-xl font-semibold mb-2">
-                      Autonomous Agents
-                    </h4>
-                    <p className="text-gray-600">
-                      AI workers that understand and execute complex logistics
-                      tasks
-                    </p>
+              <div className="space-y-8">
+                <div>
+                  <h4 className="text-xl font-semibold mb-4">
+                    Autonomous Agents for Every Department
+                  </h4>
+                  <ul className="space-y-4 text-gray-600">
+                    <li className="flex gap-4 items-start">
+                      <img
+                        src={aiIcon}
+                        alt=""
+                        className="w-6 h-6 mt-1 flex-shrink-0"
+                      />
+                      <div>
+                        <span className="font-semibold">Operations:</span>{" "}
+                        Enhance supply chain efficiency, shipment tracking, and
+                        process optimization.
+                      </div>
+                    </li>
+                    <li className="flex gap-4 items-start">
+                      <img
+                        src={aiIcon}
+                        alt=""
+                        className="w-6 h-6 mt-1 flex-shrink-0"
+                      />
+                      <div>
+                        <span className="font-semibold">Finance:</span> Automate
+                        invoicing, expense tracking, and financial reporting for
+                        precise and efficient operations.
+                      </div>
+                    </li>
+                    <li className="flex gap-4 items-start">
+                      <img
+                        src={aiIcon}
+                        alt=""
+                        className="w-6 h-6 mt-1 flex-shrink-0"
+                      />
+                      <div>
+                        <span className="font-semibold">
+                          Sales and Marketing:
+                        </span>{" "}
+                        Drive lead management, customer engagement, and campaign
+                        performance with intelligent automation.
+                      </div>
+                    </li>
+                    <li className="flex gap-4 items-start">
+                      <img
+                        src={aiIcon}
+                        alt=""
+                        className="w-6 h-6 mt-1 flex-shrink-0"
+                      />
+                      <div>
+                        <span className="font-semibold">
+                          Compliance and Audit:
+                        </span>{" "}
+                        Maintain regulatory compliance, validate documents, and
+                        ensure audit readiness.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex gap-4">
+                    <img
+                      src={aiIcon}
+                      alt=""
+                      className="w-12 h-12 flex-shrink-0"
+                    />
+                    <div>
+                      <h4 className="text-xl font-semibold mb-2">
+                        Continuous Learning
+                      </h4>
+                      <p className="text-gray-600">
+                        AI agents improve over time by adapting to real-world
+                        operations, boosting reliability and performance.
+                      </p>
+                    </div>
                   </div>
-                </li>
-                <li className="flex gap-4">
-                  <img
-                    src={workflowIcon}
-                    alt=""
-                    className="w-12 h-12 flex-shrink-0"
-                  />
-                  <div>
-                    <h4 className="text-xl font-semibold mb-2">
-                      Continuous Learning
-                    </h4>
-                    <p className="text-gray-600">
-                      Agents that improve over time by learning from your
-                      operations
-                    </p>
+                  <div className="flex gap-4">
+                    <img
+                      src={aiIcon}
+                      alt=""
+                      className="w-12 h-12 flex-shrink-0"
+                    />
+                    <div>
+                      <h4 className="text-xl font-semibold mb-2">
+                        Team Collaboration
+                      </h4>
+                      <p className="text-gray-600">
+                        Virtual employees integrate seamlessly with your team,
+                        fostering collaboration across all business functions.
+                      </p>
+                    </div>
                   </div>
-                </li>
-                <li className="flex gap-4">
-                  <img
-                    src={customsIcon}
-                    alt=""
-                    className="w-12 h-12 flex-shrink-0"
-                  />
-                  <div>
-                    <h4 className="text-xl font-semibold mb-2">
-                      Team Collaboration
-                    </h4>
-                    <p className="text-gray-600">
-                      Seamless integration with your human workforce
-                    </p>
-                  </div>
-                </li>
-              </ul>
+                </div>
+              </div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 50 }}
@@ -304,6 +353,216 @@ export const Solutions = () => {
               <img
                 src={aiIcon}
                 alt="AI Employees"
+                className="w-full max-w-lg"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Seamless Integration Section */}
+      <section id="seamless-integration" className="py-24 bg-light-gray">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="lg:order-2"
+            >
+              <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Seamless Integration with Your Tech Stack
+              </h2>
+              <p className="text-lg text-gray-600 mb-8">
+                Our AI agents integrate effortlessly with your existing systems
+                and tools, forming a unified and efficient workflow that drives
+                logistics success.
+              </p>
+              <ul className="space-y-6">
+                <li className="flex gap-4">
+                  <img
+                    src={shippingIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      Native Integration
+                    </h4>
+                    <p className="text-gray-600">
+                      Ensure smooth data synchronization and process automation
+                      within your logistics ecosystem.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <img
+                    src={workflowIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      Email Integration
+                    </h4>
+                    <p className="text-gray-600">
+                      Automate email workflows with Gmail and Outlook,
+                      simplifying communication and notifications.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <img
+                    src={customsIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      Freight Platforms
+                    </h4>
+                    <p className="text-gray-600">
+                      Integrate with freight management systems to ensure
+                      comprehensive shipment tracking and control.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <img
+                    src={trackingIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      Enterprise Systems
+                    </h4>
+                    <p className="text-gray-600">
+                      Leverage compatibility with SAP and Oracle to align
+                      logistics with your enterprise ecosystem.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="flex justify-center lg:order-1"
+            >
+              <img
+                src={workflowIcon}
+                alt="Integration"
+                className="w-full max-w-lg"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Consulting Section */}
+      <section id="ai-consulting" className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                AI Consulting
+              </h2>
+              <p className="text-lg text-gray-600 mb-8">
+                Transform your logistics operations with our expert AI
+                consulting services. Our strategic approach ensures seamless AI
+                adoption and optimized performance across all functions.
+              </p>
+              <ul className="space-y-6">
+                <li className="flex gap-4">
+                  <img
+                    src={aiIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      Digital Transformation Strategy
+                    </h4>
+                    <p className="text-gray-600">
+                      Develop a roadmap to modernize logistics operations with
+                      AI technologies aligned to your business goals.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <img
+                    src={workflowIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      AI Implementation Planning
+                    </h4>
+                    <p className="text-gray-600">
+                      Create a step-by-step deployment plan to integrate AI into
+                      your workflows for maximum impact.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <img
+                    src={documentIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      Process Analysis
+                    </h4>
+                    <p className="text-gray-600">
+                      Identify inefficiencies and uncover opportunities to
+                      streamline workflows with AI-powered automation.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <img
+                    src={trackingIcon}
+                    alt=""
+                    className="w-12 h-12 flex-shrink-0"
+                  />
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2">
+                      ROI Assessment
+                    </h4>
+                    <p className="text-gray-600">
+                      Evaluate the costs, benefits, and returns of AI
+                      integration to drive informed, data-backed decisions.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <p className="text-lg text-gray-600 mt-8">
+                Partner with us to unlock the full potential of AI for your
+                logistics business. From strategy to execution, we help you
+                enhance scalability, efficiency, and success.
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="flex justify-center"
+            >
+              <img
+                src={aiIcon}
+                alt="AI Consulting"
                 className="w-full max-w-lg"
               />
             </motion.div>

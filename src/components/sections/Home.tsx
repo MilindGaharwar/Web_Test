@@ -25,15 +25,16 @@ export const Home = () => {
                 className="text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
                 {...fadeIn}
               >
-                Transform Your Logistics with AI
+                Transform Your Logistics Operations
               </motion.h1>
               <motion.p
                 className="text-xl text-gray-600 mb-8"
                 {...fadeIn}
                 transition={{ delay: 0.2 }}
               >
-                Automate document processing, streamline workflows, and deploy
-                AI agents to revolutionize your logistics operations.
+                Revolutionize your business with AI-powered virtual employees
+                and intelligent agents, purpose-built for the logistics
+                industry.
               </motion.p>
               <motion.div
                 className="flex gap-4"
@@ -57,7 +58,7 @@ export const Home = () => {
               <img
                 src={aiIcon}
                 alt="AI Automation"
-                className="w-full max-w-lg"
+                className="w-full max-w-[80%]"
               />
             </motion.div>
           </div>
@@ -75,11 +76,14 @@ export const Home = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Intelligent Solutions for Modern Logistics
+              What We Do
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our AI-powered platform streamlines your operations and reduces
-              manual work
+              Our platform empowers your business to create customized AI agents
+              ("virtual employees") that can be deployed across nearly all
+              facets of logistics operations. These agents seamlessly integrate
+              into your workflows, delivering unparalleled efficiency,
+              precision, and scalability.
             </p>
           </motion.div>
 
@@ -89,34 +93,37 @@ export const Home = () => {
                 icon: documentIcon,
                 title: "Document Processing",
                 description:
-                  "Automate data extraction from shipping documents with high accuracy",
+                  "Simplify logistics document management with AI agents that understand context and learn from your workflows.",
               },
               {
                 icon: workflowIcon,
                 title: "Workflow Automation",
                 description:
-                  "Create custom workflows that adapt to your business needs",
+                  "Streamline logistics operations with virtual employees that autonomously execute and refine workflows for maximum efficiency and scalability.",
               },
               {
                 icon: aiIcon,
-                title: "AI Employees",
+                title: "Automate Logistics Tasks",
                 description:
-                  "Deploy AI agents that work 24/7 alongside your team",
+                  "Deploy AI agents across different departments to manage routine and complex tasks, enabling your team to focus on strategic growth initiatives.",
               },
               {
                 icon: customsIcon,
-                title: "Customs Management",
-                description: "Streamline customs documentation and compliance",
+                title: "Seamless Integration",
+                description:
+                  "Our AI agents integrate effortlessly with your existing systems and tools, forming a unified and efficient workflow.",
               },
               {
                 icon: shippingIcon,
-                title: "Shipping Operations",
-                description: "Optimize shipping processes and reduce errors",
+                title: "AI Consulting",
+                description:
+                  "Transform your logistics operations with our expert AI consulting services and strategic approach to AI adoption.",
               },
               {
                 icon: trackingIcon,
-                title: "Real-time Tracking",
-                description: "Monitor shipments and operations in real-time",
+                title: "Continuous Learning",
+                description:
+                  "AI agents improve over time by adapting to real-world operations, boosting reliability and performance.",
               },
             ].map((feature, index) => (
               <motion.div
