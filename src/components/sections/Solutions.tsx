@@ -4,7 +4,6 @@ import shippingIcon from "../../assets/shipping-icon.svg";
 import trackingIcon from "../../assets/tracking-icon.svg";
 import documentIcon from "../../assets/document-icon.svg";
 import workflowIcon from "../../assets/workflow-icon.svg";
-import aiIcon from "../../assets/ai-icon.svg";
 import cargowiseLogo from "../../assets/cargowise-logo.svg";
 
 const fadeIn = {
@@ -255,7 +254,7 @@ export const Solutions = () => {
                   <ul className="space-y-4 text-gray-600">
                     <li className="flex gap-4 items-start">
                       <img
-                        src={aiIcon}
+                        src={workflowIcon}
                         alt=""
                         className="w-6 h-6 mt-1 flex-shrink-0"
                       />
@@ -267,7 +266,7 @@ export const Solutions = () => {
                     </li>
                     <li className="flex gap-4 items-start">
                       <img
-                        src={aiIcon}
+                        src={documentIcon}
                         alt=""
                         className="w-6 h-6 mt-1 flex-shrink-0"
                       />
@@ -279,7 +278,7 @@ export const Solutions = () => {
                     </li>
                     <li className="flex gap-4 items-start">
                       <img
-                        src={aiIcon}
+                        src={customsIcon}
                         alt=""
                         className="w-6 h-6 mt-1 flex-shrink-0"
                       />
@@ -293,7 +292,7 @@ export const Solutions = () => {
                     </li>
                     <li className="flex gap-4 items-start">
                       <img
-                        src={aiIcon}
+                        src={shippingIcon}
                         alt=""
                         className="w-6 h-6 mt-1 flex-shrink-0"
                       />
@@ -310,7 +309,7 @@ export const Solutions = () => {
                 <div className="space-y-4">
                   <div className="flex gap-4">
                     <img
-                      src={aiIcon}
+                      src={trackingIcon}
                       alt=""
                       className="w-12 h-12 flex-shrink-0"
                     />
@@ -326,7 +325,7 @@ export const Solutions = () => {
                   </div>
                   <div className="flex gap-4">
                     <img
-                      src={aiIcon}
+                      src={workflowIcon}
                       alt=""
                       className="w-12 h-12 flex-shrink-0"
                     />
@@ -351,7 +350,7 @@ export const Solutions = () => {
               className="flex justify-center"
             >
               <img
-                src={aiIcon}
+                src={workflowIcon}
                 alt="AI Employees"
                 className="w-full max-w-lg"
               />
@@ -484,7 +483,7 @@ export const Solutions = () => {
               <ul className="space-y-6">
                 <li className="flex gap-4">
                   <img
-                    src={aiIcon}
+                    src={customsIcon}
                     alt=""
                     className="w-12 h-12 flex-shrink-0"
                   />
@@ -561,7 +560,7 @@ export const Solutions = () => {
               className="flex justify-center"
             >
               <img
-                src={aiIcon}
+                src={customsIcon}
                 alt="AI Consulting"
                 className="w-full max-w-lg"
               />

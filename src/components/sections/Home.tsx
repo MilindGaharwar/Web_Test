@@ -19,47 +19,29 @@ export const Home = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-white to-light-gray py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="text-left">
-              <motion.h1
-                className="text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
-                {...fadeIn}
-              >
-                Transform Your Logistics Operations
-              </motion.h1>
-              <motion.p
-                className="text-xl text-gray-600 mb-8"
-                {...fadeIn}
-                transition={{ delay: 0.2 }}
-              >
-                Revolutionize your business with AI-powered virtual employees
-                and intelligent agents, purpose-built for the logistics
-                industry.
-              </motion.p>
-              <motion.div
-                className="flex gap-4"
-                {...fadeIn}
-                transition={{ delay: 0.4 }}
-              >
-                <Link to="/demo" className="btn-primary">
-                  Get Started
-                </Link>
-                <Link to="/contact" className="btn-secondary">
-                  Contact Sales
-                </Link>
-              </motion.div>
-            </div>
-            <motion.div
-              className="flex justify-center"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8 }}
+          <div className="text-center max-w-4xl mx-auto">
+            <motion.h1
+              className="text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+              {...fadeIn}
             >
-              <img
-                src={aiIcon}
-                alt="AI Automation"
-                className="w-full max-w-[80%]"
-              />
+              Transform Your Logistics Operations
+            </motion.h1>
+            <motion.p
+              className="text-xl text-gray-600 mb-8"
+              {...fadeIn}
+              transition={{ delay: 0.2 }}
+            >
+              Revolutionize your business with AI-powered virtual employees and
+              intelligent agents, purpose-built for the logistics industry.
+            </motion.p>
+            <motion.div
+              className="flex justify-center gap-4"
+              {...fadeIn}
+              transition={{ delay: 0.4 }}
+            >
+              <Link to="/contact" className="btn-primary">
+                Join Waitlist
+              </Link>
             </motion.div>
           </div>
         </div>
@@ -237,16 +219,10 @@ export const Home = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Link
-              to="/demo"
+              to="/contact"
               className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
             >
-              Get Started
-            </Link>
-            <Link
-              to="/contact"
-              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors"
-            >
-              Contact Sales
+              Join Waitlist
             </Link>
           </motion.div>
         </div>

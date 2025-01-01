@@ -67,9 +67,8 @@ export const About = () => {
             <p className="text-xl text-gray-600">
               LogiAI is more than a platform; it's a movement to redefine what
               logistics can achieve with intelligent automation and
-              collaborative AI workforces. Join us on this transformative
-              journey to modernize the logistics industry and unlock its full
-              potential.
+              collaborative AI workforce. Join us on this transformative journey
+              to modernize the logistics industry and unlock its full potential.
             </p>
           </motion.div>
         </div>
