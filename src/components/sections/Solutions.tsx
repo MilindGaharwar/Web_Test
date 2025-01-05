@@ -559,7 +559,7 @@ export const Solutions = () => {
               className="flex justify-center"
             >
               <img
-                src={customsIcon}
+                src={shippingIcon}
                 alt="AI Consulting"
                 className="w-full max-w-lg"
               />
