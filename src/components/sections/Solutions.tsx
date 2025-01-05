@@ -4,7 +4,7 @@ import shippingIcon from "../../assets/shipping-icon.svg";
 import trackingIcon from "../../assets/tracking-icon.svg";
 import documentIcon from "../../assets/document-icon.svg";
 import workflowIcon from "../../assets/workflow-icon.svg";
-import cargowiseLogo from "../../assets/cargowise-logo.svg";
+import { Link } from "react-router-dom";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -371,13 +371,8 @@ export const Solutions = () => {
               className="lg:order-2"
             >
               <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Seamless Integration with Your Tech Stack
+                Seamless Integration With Your Tech Stack
               </h2>
-              <p className="text-lg text-gray-600 mb-8">
-                Our AI agents integrate effortlessly with your existing systems
-                and tools, forming a unified and efficient workflow that drives
-                logistics success.
-              </p>
               <ul className="space-y-6">
                 <li className="flex gap-4">
                   <img
@@ -579,31 +574,8 @@ export const Solutions = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl font-bold mb-12 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
           >
-            Seamless Integration with Your Tech Stack
+            Seamless Integration With Your Tech Stack
           </motion.h2>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex justify-center gap-12 mb-8"
-          >
-            <img
-              src={cargowiseLogo}
-              alt="CargoWise One"
-              className="h-10 opacity-80 hover:opacity-100 transition-opacity"
-            />
-          </motion.div>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-lg text-gray-600"
-          >
-            Native integration with CargoWise One and custom integrations
-            available for your specific needs
-          </motion.p>
         </div>
       </section>
 
@@ -626,7 +598,8 @@ export const Solutions = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl mb-8"
           >
-            Schedule a demo to see how LogiAI can transform your business
+            Join leading logistics companies that have already automated their
+            operations with LogiAI
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -635,18 +608,12 @@ export const Solutions = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex justify-center gap-4"
           >
-            <a
-              href="/demo"
+            <Link
+              to="/contact"
               className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
             >
-              Get Started
-            </a>
-            <a
-              href="/contact"
-              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors"
-            >
-              Contact Sales
-            </a>
+              Join Waitlist
+            </Link>
           </motion.div>
         </div>
       </section>

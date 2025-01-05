@@ -79,7 +79,7 @@ export const Contact = () => {
               transition={{ duration: 0.6 }}
               className="bg-white p-8 rounded-2xl shadow-lg"
             >
-              <h2 className="text-3xl font-bold mb-8">Send us a message</h2>
+              <h2 className="text-3xl font-bold mb-8">Join Waitlist</h2>
               <form ref={form} onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label
@@ -122,7 +122,7 @@ export const Contact = () => {
                     htmlFor="message"
                     className="block text-sm font-medium text-gray-700 mb-2"
                   >
-                    Message
+                    What challenges can we help you solve?
                   </label>
                   <textarea
                     id="message"
