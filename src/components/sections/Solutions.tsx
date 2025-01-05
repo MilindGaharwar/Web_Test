@@ -612,10 +612,7 @@ export const Solutions = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex justify-center gap-4"
           >
-            <Link
-              to="/contact"
-              className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
-            >
+            <Link to="/contact#contact-form" className="btn-primary">
               Join Waitlist
             </Link>
           </motion.div>

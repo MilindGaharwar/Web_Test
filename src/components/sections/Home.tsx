@@ -39,7 +39,7 @@ export const Home = () => {
               {...fadeIn}
               transition={{ delay: 0.4 }}
             >
-              <Link to="/contact" className="btn-primary">
+              <Link to="/contact#contact-form" className="btn-primary">
                 Join Waitlist
               </Link>
             </motion.div>
@@ -219,7 +219,7 @@ export const Home = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Link
-              to="/contact"
+              to="/contact#contact-form"
               className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
             >
               Join Waitlist

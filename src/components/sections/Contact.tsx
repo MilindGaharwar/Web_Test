@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useState, FormEvent, useRef } from "react";
+import { useState, FormEvent, useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
@@ -12,6 +12,20 @@ export const Contact = () => {
   const [status, setStatus] = useState<
     "idle" | "sending" | "success" | "error"
   >("idle");
+
+  useEffect(() => {
+    if (window.location.hash === "#contact-form") {
+      const formElement = document.getElementById("contact-form");
+      if (formElement) {
+        formElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        // Focus on the name input
+        const nameInput = document.getElementById("name");
+        if (nameInput) {
+          nameInput.focus();
+        }
+      }
+    }
+  }, []);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -69,7 +83,7 @@ export const Contact = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-24">
+      <section id="contact-form" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Contact Form */}
