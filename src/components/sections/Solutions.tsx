@@ -4,6 +4,10 @@ import shippingIcon from "../../assets/shipping-icon.svg";
 import trackingIcon from "../../assets/tracking-icon.svg";
 import documentIcon from "../../assets/document-icon.svg";
 import workflowIcon from "../../assets/workflow-icon.svg";
+import documentLarge from "../../assets/document-large.svg";
+import workflowLarge from "../../assets/workflow-large.svg";
+import aiLarge from "../../assets/ai-large.svg";
+import integrationLarge from "../../assets/integration-large.svg";
 import { Link } from "react-router-dom";
 
 const fadeIn = {
@@ -132,7 +136,7 @@ export const Solutions = () => {
               className="flex justify-center"
             >
               <img
-                src={documentIcon}
+                src={documentLarge}
                 alt="Document Processing"
                 className="w-full max-w-lg"
               />
@@ -153,7 +157,7 @@ export const Solutions = () => {
               className="flex justify-center lg:order-2"
             >
               <img
-                src={workflowIcon}
+                src={workflowLarge}
                 alt="Workflow Automation"
                 className="w-full max-w-lg"
               />
@@ -350,7 +354,7 @@ export const Solutions = () => {
               className="flex justify-center"
             >
               <img
-                src={workflowIcon}
+                src={aiLarge}
                 alt="AI Employees"
                 className="w-full max-w-lg"
               />
@@ -448,7 +452,7 @@ export const Solutions = () => {
               className="flex justify-center lg:order-1"
             >
               <img
-                src={workflowIcon}
+                src={integrationLarge}
                 alt="Integration"
                 className="w-full max-w-lg"
               />
